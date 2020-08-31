@@ -1,5 +1,5 @@
 # androidscript-developer
-Android Bash Scripting Created by Me
+Android Bash Scripting Created by Me (For Linux)
 
 Usage :
 
