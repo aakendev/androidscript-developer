@@ -31,7 +31,7 @@ printf "org.gradle.jvmargs=-Xmx1024m\nandroid.useAndroidX=true\nandroid.enableJe
 echo "Make local.properties in Parent..."
 touch local.properties
 echo "Make local.properties default template..."
-printf "sdk.dir=$ANDROID_SDK_ROOT" > local.properties
+printf "sdk.dir=\$ANDROID_SDK_ROOT" > local.properties
 echo "Make build.gradle in Parent..."
 touch build.gradle
 echo "Make build.gradle default template..."
